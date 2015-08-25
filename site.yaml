@@ -1,0 +1,49 @@
+mode: learning
+media_root: media
+media_url: /media
+base_url: /
+# If your site is nested inside of a bigger one, you can use media_url and
+# base_url to properly generate links on your site. For example, if your URL
+# will be some.domain.com/starter/, use:
+#   media_url: /starter/media
+#   base_url: /starter/
+template: hyde.ext.templates.jinja.Jinja2Template
+plugins:
+    - hyde.ext.plugins.meta.MetaPlugin
+    - hyde.ext.plugins.meta.AutoExtendPlugin
+    # Plugins needed for the advances section.
+    - hyde.ext.plugins.meta.SorterPlugin
+    - hyde.ext.plugins.meta.GrouperPlugin
+    - hyde.ext.plugins.meta.TaggerPlugin
+context:
+    data:
+        author:
+            name: Merlin Rebrović
+            url: "http://merlin.rebrovic.net"
+        layout:
+            name: Hyde Starter Kit
+            url: "https://github.com/merlinrebrovic/hyde-starter-kit"
+        project:
+            name: Hyde
+            url: "http://hyde.github.com"
+            install: "https://github.com/hyde/hyde#installation"
+        menu:
+          - title: Home
+            url: index.html
+          - title: EcoLunch
+            url: ecolunch.html
+          - title: EcoGroup
+            url: ecogroup.html
+          - title: Resources
+            url: resources.html
+
+### Advanced part ###
+
+# This defines meta data on the whole site.
+meta:
+    # 'nodemeta' will tell Hyde what file to look for inside a folder from
+    # which to apply meta data to all files (resources) inside it. This is
+    # a great way of simply adding or modifying properties of a very large
+    # number of files.
+    nodemeta: meta.yaml
+    ga_tracking_code: XX-XXXXXXXX-X

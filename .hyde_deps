@@ -1,0 +1,6 @@
+!!python/unicode 'advanced/.hyde_deps': [macros.j2, ga.j2, base.j2]
+!!python/unicode 'ecogroup.html': [macros.j2, ga.j2, base.j2]
+!!python/unicode 'ecolunch.html': [macros.j2, ga.j2, base.j2]
+!!python/unicode 'index.html': [macros.j2, ga.j2, base.j2]
+!!python/unicode 'media/css/style.css': []
+!!python/unicode 'resources.html': [macros.j2, ga.j2, base.j2]
