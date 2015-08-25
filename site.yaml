@@ -40,8 +40,8 @@ context:
 publisher:
     github:
         type: hyde.ext.publishers.dvcs.Git
-        path: ../hyde.github.com
-        url: git@github.com:hyde/hyde.github.com.git
+        path: ../iu-ecology.github.io
+        url: git@github.com:iu-ecology/iu-ecology.github.io.git
 
 ### Advanced part ###
 
