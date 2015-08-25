@@ -37,6 +37,12 @@ context:
           - title: Resources
             url: resources.html
 
+publisher:
+    github:
+        type: hyde.ext.publishers.dvcs.Git
+        path: ../hyde.github.com
+        url: git@github.com:hyde/hyde.github.com.git
+
 ### Advanced part ###
 
 # This defines meta data on the whole site.
